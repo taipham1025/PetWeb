@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 70px;
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+}
+    .header .navbar .icon {
+        padding: 7px;
+    }
+
+    .header .navbar .icon img {
+        width: 50px;
+        height: 50px;
+    }
+    .header .navbar .index a {
+        font-family: pacifico;
+        font-size: 38px;
+        padding: 5px;
+        text-decoration: none;
+        color: black;
+        padding-left: 10px;
+    }
+
+.header .navbar {
+    display: flex;
+    align-items: center;
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+    nav ul {
+        float: right ;
+        list-style-type: none;
+    }
+        nav ul li {
+            font-family: pacifico;
+            font-size: 25px;
+            float: left;
+            margin-right: 20px;
+        }
+        nav ul li:hover a{
+            color: #FC9D9A;
+        }
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+}
+
+.body .contactIcon .facebook img {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    left: 20px;
+    top: 380px;
+    filter: grayscale(100%);
+}
+
+.body .contactIcon .pinterest img {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    left: 20px;
+    top: 450px;
+    filter: grayscale(100%);
+}
+
+.body .contactIcon .twitter img {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    left: 20px;
+    top: 520px;
+    filter: grayscale(100%);
+}
+
+.body .contactIcon .github img {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    left: 20px;
+    top: 590px;
+    filter: grayscale(100%);
+}
+
+.body .contactIcon .discord img {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    left: 20px;
+    top: 660px;
+    filter: grayscale(100%);
+}
+
+    .body .contactIcon img:hover {
+        filter: grayscale(0);
+    }
+
+.mainButton .catButton {     
+    background-color: white;
+    width: 450px;
+    height: 450px;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+    position: absolute;
+    left: 470px;
+    top: 300px;
+    }
+
+.mainButton .dogButton {     
+    background-color: white;
+    width: 450px;
+    height: 450px;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+    position: absolute;
+    left: 970px;
+    top: 300px;
+    }    
+
+.mainButton form:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+    transform: translateX(-0.5em) translateY(-0.5em);
+    border: 7px solid #FC9D9A;
+    box-shadow: 10px 10px 0px #666666;
+    }
+
+.mainButton img {
+    height: 310px;
+    width: 310px;
+    position: absolute;
+    top: 30px;
+    left: 68px;
+    }
+.mainButton p{
+    font-family: pacifico;
+    font-weight: 500;
+    font-size: 60px;
+    position: absolute;
+    top: 330px;
+    left: 160px;
+    }
+
+    
