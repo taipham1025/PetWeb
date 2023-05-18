@@ -16,7 +16,7 @@
         width: 50px;
         height: 50px;
     }
-    .header .navbar .index a {
+    .header .navbar .homePage a {
         font-family: pacifico;
         text-shadow: 4px 4px 2px rgba(250,165,165, 0.8);
         font-size: 38px;
@@ -48,6 +48,16 @@ nav{
             font-size: 25px;
             float: left;
             margin-right: 20px;
+        }
+        nav ul li button{
+            background-color: #fff;
+            border: none;
+            font-family: pacifico;
+            text-shadow: 4px 4px 2px rgba(250,165,165, 0.8);
+            font-size: 25px;
+            float: left;
+            margin-right: 20px;
+            margin-left: 10px;
         }
         nav ul li:hover .navMenu{
             color: #FC9D9A;
@@ -85,7 +95,6 @@ nav ul li a {
     color: black;
     padding-left: 20px;
 }
-
 .body .contactIcon .facebook img {
     height: 60px;
     width: 60px;
@@ -183,20 +192,20 @@ nav ul li a {
     left: 160px;
     }
 
-/*login css*/
+/*login css----------------------------------------------------------------------*/
 .login-box {
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
     width: 400px;
     padding: 40px;
     transform: translate(-50%, -50%);
-    background: rgba(24, 20, 20, 0.987);
+    background: rgba(255, 255, 255, 0.987);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
   }
-  
   .login-box .user-box {
     position: relative;
   }
@@ -205,10 +214,10 @@ nav ul li a {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
-    color: #fff;
+    color: #000000;
     margin-bottom: 30px;
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #000000;
     outline: none;
     background: transparent;
   }
@@ -219,7 +228,7 @@ nav ul li a {
     left: 0;
     padding: 10px 0;
     font-size: 16px;
-    color: #fff;
+    color: #000000;
     pointer-events: none;
     transition: .5s;
   }
@@ -228,7 +237,7 @@ nav ul li a {
   .login-box .user-box input:valid ~ label {
     top: -20px;
     left: 0;
-    color: #bdb8b8;
+    color: #000000;
     font-size: 12px;
   }
   
@@ -236,7 +245,7 @@ nav ul li a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
-    color: #ffffff;
+    color: #000000;
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
@@ -247,12 +256,87 @@ nav ul li a {
   }
   
   .login-box a:hover {
-    background: #03f40f;
+    background: #FC9D9A;
     color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 25px #03f40f;
+    box-shadow: 0 0 25px #FC9D9A;
   }
-  
+.select{
+    display: none;
+}
+.title {
+
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+    position: absolute;
+    left: 550px;
+    top: 190px;
+    border-radius: 50%;
+}
+.question {
+    background-color: white;
+    width: 700px;
+    height: 80px;
+    border-radius: 100px;
+    transition: .4s ease-in-out;
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+    position: absolute;
+    left: 620px;
+    top: 225px;
+}
+    .question p{
+        font-family: Lobster;
+        font-weight: 500;
+        font-size: 35px;
+        left: 140px;
+        top: 20px;
+        position: absolute;
+
+    }
+.title img {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.option form{
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 700px;
+}
+.option p{
+    font-size: 25px;
+    text-align: center;
+    padding-left: 30px;
+    top: 10px;
+}
+    #o0  {
+        top: 330px;
+    }
+    #o1  {
+        top: 400px;
+    }
+    #o2  {
+        top: 470px;
+    }
+    #o3  {
+        top: 540px;
+    }
+    #o4  {
+        top: 610px;
+    }
+    #o5  {
+        top: 680px;
+    }
+
+
+
   
 
 
