@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetWeb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/58d51fe4b9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/Icon.png" type="PetWebIcon">
+    <link rel="stylesheet" href="PetWeb.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<script>
+    $(document).ready(function(){
+        $("#show").click(function(){
+            $("#show").hide();
+            $("#hide").show();
+            $(".catInfo").show();
+        });
+        });
+    $(document).ready(function(){
+        $("#hide").click(function(){
+            $("#show").show();
+            $("#hide").hide();
+            $(".catInfo").hide();
+        });
+    });
+</script>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="icon">
+                <a href="PetWeb.html">
+                    <img src="img/Icon.png" alt="PetWebIcon">     
+                </a>     
+            </div>
+            <div class="homePage">
+                <a href="PetWeb.html">PetWeb</a>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li>
+                        <a href="PetWeb.html" class="navMenu">Trang Chủ</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="navMenu">Thú Cưng</a>  
+                        <i class="fa-solid fa-caret-down" style="color: #000000;"></i>
+                        <div class="dropdown-content">
+                            <a href="dogOption.html" class="border">Chó</a>
+                            <a href="catOption.html" class="border">Mèo</a>
+                            <a href="#">Coming Soon...</a>
+                        </div> 
+                    </li>
+                    
+                 
+                </ul>
+            </nav>
+        </div>      
+    </div>  
+    <div class="body">
+        <div class="contactIcon">
+            <a href="https://www.facebook.com/taipham1025" class="facebook">
+                <img src="img/facebook_color.png" alt="facebook">
+            </a>
+            <a href="https://www.pinterest.com/taipham1025/" class="pinterest">
+                <img src="img/pinterest_color.png" alt="pinterest">
+            </a>
+            <a href="#" class="twitter">
+                <img src="img/twitter.png" alt="twitter">
+            </a>
+            <a href="https://github.com/taipham1025" class="github">
+                <img src="img/github.png" alt="github">
+            </a>
+            <a href="https://discord.gg/X3eu7GgsTW" class="discord">
+                <img src="img/discord.png" alt="discord">
+            </a>
+        </div>
+        <div class="showCatImage">
+            <form>
+                <p class="catName">Chó Corgi Sable Chưa Trưởng Thành</p>      
+            </form> 
+            <img class="aldTTlilac" src="image2/Cho/cho_corgi/sable_ctt_001.jpg" alt="Chó Corgi Sable Chưa Trưởng Thành">
+            <center>
+                <button id="show">Tìm Hiểu Thêm</button>
+            </center>
+            <p class="catInfo">- Tên đầy đủ của Corgi là Pembroke Welsh Corgi, theo tiếng Wales dịch ra nghĩa là “chú chó lùn” 
+                (“cor” là lùn, “gi” là chó). Tên gọi đã nói lên hình dáng bên ngoài của chó Corgi: Lùn lùn, tròn tròn và rất 
+                dễ thương. Theo truyền thuyết thì Corgi chính là món quà từ nàng tiên rừng - người đặt bớt trên lông của chúng. <br>
+                - Các nhà nghiên cứu trong nhiều tài liệu lưu trữ cho rằng giống chó Corgi đã tồn tại khoảng 3000 năm. 
+                Sự xuất hiện của chú Corgi đầu tiên được ghi nhận tại xứ Wales. Chú chó này có khả năng được phát triển 
+                từ giống chó trong thời kỳ tiền Viking ở Thụy Điển có tên Vallhund. <br>
+                - Nếu để ý kỹ, bạn sẽ thấy Corgi có những nét giống với một số giống chó họ hàng với nó như Alaska, 
+                Samoyed hay một số giống chó ở Bắc Âu. <br>
+                - Bạn biết không, sự thật thú vị là loài vật nhỏ bé và “lùn” như Corgi lại được sử dụng vào hoạt động 
+                chăn gia súc đấy. Nghe hơi vô lý nhỉ nhưng thực ra lại hợp lý không tưởng. <br>
+                - Bốn chân của Corgi rất ngắn và thấp nên sẽ là lợi thế bởi Corgi sẽ không dễ dàng nhận những cú đá 
+                hậu nguy hiểm của các loài gia súc lớn. Nếu có gia súc bị lạc khi đi chăn, Corgi sẽ nhanh chóng cắn 
+                vào chân cho chúng nhận ra và quay về đàn. <br>
+                - Khi hoạt động chăn nuôi gia súc không còn phổ biến ở Châu Âu như trước nữa thì Corgi cũng ít được 
+                sử dụng cho mục đích này. Thế nhưng sự thông minh và ngoại hình đáng yêu của chúng đã thu hút rất 
+                nhiều gia đình nhận nuôi và coi Corgi như một người bạn, thành viên trong gia đình. <br>
+                - Ở Việt Nam chó Corgi chỉ được đưa về từ khoảng 2010 nhưng đã nhanh chóng làm “khuynh đảo” và tạo ra 
+                “cơn sốt” trong giới thú cưng và những người “nghiện chó” cực kỳ yêu thích. <br>
+                - Phân loại chó Corgi: <br>
+                + Pembroke Corrgi: có nguồn gốc từ giống chó chiếc đuôi rất ngắn (cộc đuôi). Hầu hết giống Pembroke 
+                được sinh ra đều không có đuôi. Nếu sinh ra có đuôi thì khi được 2-5 ngày tuổi sẽ được cắt đuôi.
+                Pembroke cao khoảng 25 - 30 cm và nặng khoảng 13 kg. Giống này có thân dài, đuôi ngắn và tai vểnh nhọn. 
+                Corgi có thân hình gần giống với giống to lớn nhưng chân ngắn. Khi nuôi bạn cần kiểm soát khẩu phần và 
+                tập thể dục của những chú chó này. <br>
+                + Cardigan Welsh Corgi: là một giống có chiều cao khiên tốn, thân dài với đôi tai lớn, dựng đứng. Đuôi 
+                cụp xuống so với dòng Pembroke không có đuôi. Giống này trông nặng hơn giống Pembroke. Tai to và chân 
+                tròn giống Pembroke. Bộ lông của những chú chó thường có màu nâu, xanh lá chim két, nâu vàng nhạt, đen 
+                và nấu đốm,...Cardigan Welsh Corgi là một giống chó rất thông minh, biết nghe lời và bảo vệ chủ. Chúng 
+                bình tĩnh, trung thành và tình cảm, nhưng rất cảnh giác với người lạ. <br>
+                - Đặc điểm ngoại hình chó Corgi: Chó corgi chân ngắn có đôi tai hình tam giác dựng đứng. Tai và khuôn 
+                mặt của corgi khá cân đối. Corgi có chiếc mũi dài và nhọn, đôi mắt to tròn, miệng và cằm nhỏ nhưng rất 
+                sắc sảo. Corgis thường được gọi là chó cáo vì chúng trông giống như cáo. <br>
+                - Đặc điểm tính cách: Corgi rất thông minh. Chúng nằm trong danh sách 11 giống chó thông minh nhất trên 
+                thế giới. Corgi thông minh, nhưng đôi khi bướng bỉnh. Có thể đôi khi những chú chó sẽ cố ý không làm theo ý bạn. <br>
+                - Corgi cũng là một người bạn rất trung thành, rất thân thiện và rất thích trẻ em. Tuy nhiên, Corgi 
+                rất hiếu động và ít khi ngồi yên. Đừng để chúng chơi với những đứa trẻ còn quá nhỏ. Bạn nên cho Corgi 
+                ra ngoài chơi thường xuyên, cho chúng chạy nhảy và nô đùa để giải phóng năng lượng.<br>
+                </p> 
+                <center>
+                    <button id="hide">Ẩn Bớt</button>
+                </center>
+        </div>
+    </div>
+</body>
+</html>

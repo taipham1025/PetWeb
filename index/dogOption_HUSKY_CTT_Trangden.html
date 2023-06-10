@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetWeb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/58d51fe4b9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/Icon.png" type="PetWebIcon">
+    <link rel="stylesheet" href="PetWeb.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<script>
+    $(document).ready(function(){
+        $("#show").click(function(){
+            $("#show").hide();
+            $("#hide").show();
+            $(".catInfo").show();
+        });
+        });
+    $(document).ready(function(){
+        $("#hide").click(function(){
+            $("#show").show();
+            $("#hide").hide();
+            $(".catInfo").hide();
+        });
+    });
+</script>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="icon">
+                <a href="PetWeb.html">
+                    <img src="img/Icon.png" alt="PetWebIcon">     
+                </a>     
+            </div>
+            <div class="homePage">
+                <a href="PetWeb.html">PetWeb</a>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li>
+                        <a href="PetWeb.html" class="navMenu">Trang Chủ</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="navMenu">Thú Cưng</a>  
+                        <i class="fa-solid fa-caret-down" style="color: #000000;"></i>
+                        <div class="dropdown-content">
+                            <a href="dogOption.html" class="border">Chó</a>
+                            <a href="catOption.html" class="border">Mèo</a>
+                            <a href="#">Coming Soon...</a>
+                        </div> 
+                    </li>
+                    
+                    
+                </ul>
+            </nav>
+        </div>      
+    </div>  
+    <div class="body">
+        <div class="contactIcon">
+            <a href="https://www.facebook.com/taipham1025" class="facebook">
+                <img src="img/facebook_color.png" alt="facebook">
+            </a>
+            <a href="https://www.pinterest.com/taipham1025/" class="pinterest">
+                <img src="img/pinterest_color.png" alt="pinterest">
+            </a>
+            <a href="#" class="twitter">
+                <img src="img/twitter.png" alt="twitter">
+            </a>
+            <a href="https://github.com/taipham1025" class="github">
+                <img src="img/github.png" alt="github">
+            </a>
+            <a href="https://discord.gg/X3eu7GgsTW" class="discord">
+                <img src="img/discord.png" alt="discord">
+            </a>
+        </div>
+        <div class="showCatImage">
+            <form>
+                <p class="catName">Chó Husky Trắng Đen Chưa Trưởng Thành</p>      
+            </form> 
+            <img class="aldTTlilac" src="image2/Cho/cho_husky/trangden_ctt_001.jpg" alt="Chó Husky Trắng Đen Chưa Trưởng Thành">
+            <center>
+                <button id="show">Tìm Hiểu Thêm</button>
+            </center>
+            <p class="catInfo">- Nguồn gốc của Husky: Theo các Wikipedia thì Husky có nguồn gốc từ vùng Đông Bắc Siberia 
+                nước Nga, đây một trong những nơi rất lạnh giá. Những chú Husky đầu tiên đã được phối giống bởi người 
+                Chukchi chỉ với mục đích đơn giản đó là tạo ra giống chó có khả năng làm việc và có thể kéo xe hàng 
+                trong điều kiện thời tiết lạnh giá khắc nghiệt. <br>
+                - Phân loại Husky, Husky chia thành 2 loại Husky thuần chủng và Husky lai: <br>
+                + Husky thuần chủng: Có bố mẹ đều cùng một giống và được công nhận bởi các câu lạc bộ chó kiểng Hoa 
+                Kỳ (AKC). Những loại Husky thuần chủng phổ biến bao gồm: Husky Siberian, Chinook, Samoyed,... <br>
+                + Husky lai: Có bố/ mẹ là Husky thuần chủng được lai với một số giống chó khác hoặc loài động vật 
+                khác như cáo và sói. Husky lai không được các câu lạc bộ chó kiểng cũng công nhận. Những loại Husky 
+                thuần chủng phổ biến bao gồm: Pomsky, Huskita, Alusky,... <br>
+                - Các màu lông Husky phổ biến: Chó Husky có rất nhiều màu lông khác nhau, thường gặp nhất là Chó 
+                Husky trắng - đen, sau đó là nâu (đỏ) - trắng, xám (phấn) - trắng, trắng, và màu lông hiếm "agouti". <br>
+                - Đặc điểm ngoại hình Husky: Husky sở hữu một thân hình thuôn dài, to khỏe và rất săn chắc. Chiều 
+                cao trung bình từ 53 đến 58 cm và cân nặng từ 16 đến 30 kg (thường những chú “Ngáo” giống đực sẽ 
+                có thân hình nhỉnh hơn những con cái). Loài chó này có một bộ lông dày và có 2 lớp giữ ấm (thường rụng 
+                lông 2 lần một năm). <br>
+                - Mũi của chó Husky đặc biệt hơn so với các giống chó khác vì màu mũi của chúng sẽ cùng tông theo màu 
+                lông. Lúc nào mũi của chúng cũng hơi ướt một chút. Vào thời tiết lạnh, mũi Husky sẽ chuyển sang màu 
+                nâu hoặc màu hồng nhạt nhưng trong mùa hè thì mũi chúng có màu như ban đầu. <br>
+                - Đặc điểm tính cách: Husky sở hữu một đôi mắt hình quả hạnh nhân, hơi xếch lên về phía đuôi mắt toát 
+                lên vẻ lạnh lùng, đầy hoang dã. Tuy nhiên, chúng lại có tính cách khá hiền lành, thân thiện và dễ 
+                thương. “Ngáo” không có xu hướng sủa, nhưng chúng rất hay hú và đó là cách giao tiếp của chúng với 
+                xung quanh. Tuổi đời của giống chó này trung bình trong khoảng từ 12 đến 15 năm.<br>
+                </p> 
+                <center>
+                    <button id="hide">Ẩn Bớt</button>
+                </center>
+        </div>
+    </div>
+</body>
+</html>

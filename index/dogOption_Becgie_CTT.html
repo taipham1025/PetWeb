@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetWeb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/58d51fe4b9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/Icon.png" type="PetWebIcon">
+    <link rel="stylesheet" href="PetWeb.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<script>
+    $(document).ready(function(){
+        $("#show").click(function(){
+            $("#show").hide();
+            $("#hide").show();
+            $(".catInfo").show();
+        });
+        });
+    $(document).ready(function(){
+        $("#hide").click(function(){
+            $("#show").show();
+            $("#hide").hide();
+            $(".catInfo").hide();
+        });
+    });
+</script>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="icon">
+                <a href="PetWeb.html">
+                    <img src="img/Icon.png" alt="PetWebIcon">     
+                </a>     
+            </div>
+            <div class="homePage">
+                <a href="PetWeb.html">PetWeb</a>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li>
+                        <a href="PetWeb.html" class="navMenu">Trang Chủ</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="navMenu">Thú Cưng</a>  
+                        <i class="fa-solid fa-caret-down" style="color: #000000;"></i>
+                        <div class="dropdown-content">
+                            <a href="dogOption.html" class="border">Chó</a>
+                            <a href="catOption.html" class="border">Mèo</a>
+                            <a href="#">Coming Soon...</a>
+                        </div> 
+                    </li>
+                    
+                   
+                </ul>
+            </nav>
+        </div>      
+    </div>  
+    <div class="body">
+        <div class="contactIcon">
+            <a href="https://www.facebook.com/taipham1025" class="facebook">
+                <img src="img/facebook_color.png" alt="facebook">
+            </a>
+            <a href="https://www.pinterest.com/taipham1025/" class="pinterest">
+                <img src="img/pinterest_color.png" alt="pinterest">
+            </a>
+            <a href="#" class="twitter">
+                <img src="img/twitter.png" alt="twitter">
+            </a>
+            <a href="https://github.com/taipham1025" class="github">
+                <img src="img/github.png" alt="github">
+            </a>
+            <a href="https://discord.gg/X3eu7GgsTW" class="discord">
+                <img src="img/discord.png" alt="discord">
+            </a>
+        </div>
+        <div class="showCatImage">
+            <form>
+                <p class="catName">Chó Becgie Chưa Trưởng Thành</p>      
+            </form> 
+            <img class="aldTTlilac" src="image2/Cho/cho_becgie/becdie_ctt_001.jpg" alt="Chó Becgie Chưa Trưởng Thành">
+            <center>
+                <button id="show">Tìm Hiểu Thêm</button>
+            </center>
+            <p class="catInfo">- Chó Becgie là giống chó chăn cừu nổi tiếng toàn thế giới. Chó Becgie lần đầu xuất hiện tại Cộng 
+                hòa liên bang Đức vào những năm cuối thế kỷ XIX. Max Von - một Đại Úy quân đội Đức là người đã lai tạo giống 
+                chó này. <br>
+                - Becgie ban đầu được tạo ra với để giúp người dân chăn dắt gia súc và làm chó kéo xe. Từ sau thế chiến thứ 2, 
+                chó Becgie trở nên phổ biến toàn thế giới. Chúng được nhân giống rộng rãi để làm chó cảnh giữ nhà.
+                Giữa thế kỷ 20, chó Becgie tới Mỹ. Becgie thu hút được sự chú ý của người Việt Nam từ những năm 2005 và cho 
+                tới tận bây giờ vẫn là loài chó được chọn nuôi rất nhiều. <br>
+                - Hiện tại, chó Becgie có nhiều giống như Becgie Đức, chó Becgie Bỉ, chó Becgie Nga,… <br>
+                - Bên cạnh đó còn có các giống Becgie lai như: Becgie lai Husky, Becgie lai Rottweiler, Becgie lai chó Cỏ, 
+                Becgie lai Phú Quốc, Becgie lai Corgi, Becgie lai Alaska,… <br>
+                - Đặc điểm ngoại hình: Chó Becgie hiện tại được thuần hóa và nuôi dưỡng nên không còn nhiều đặc điểm giống 
+                tổ tiên. Nhưng nhìn chung, chó Becgie thuần chủng có nhiều đặc điểm để nhận biết. <br>
+                - Có thể căn cứ vào cân nặng, chiều cao. Một chú Becgie trưởng thành thông thường cân nặng sẽ dao động từ 
+                30-40kg, cao khoảng 60-65cm. Với kích thước cơ thể vượt trội, Becgie trông rất to lớn và có cơ bắp rất săn chắc. <br>
+                - Trên thân Becgie bao phủ lớp lông màu đen sẫm, nâu đen và đen tuyền. Hoặc đặc biệt hơn là màu trắng tuyền, 
+                cam đậm và lam sẫm. Becgie có 2 lớp lông: Lớp trong ngắn và dày, lớp ngoài dài và thô. <br>
+                - Đặc điểm tính cách: Chó Bacgie là một giống chó cực kỳ trung thành. Đặc biệt giống chó này rất thông minh, 
+                có thể học các bài huấn luyện một cách nhanh chóng và chính xác. Chó Becgie có thể phân biệt được tâm trạng 
+                của con người, nó biết được khi nào bạn vui, khi nào bạn buồn. <br>
+                - Chó Begie rất thân thiện và dễ gần, chúng chơi đùa rất vui với những con vật khác, Đặc biệt, chó Begie rất 
+                quý và chơi đùa với trẻ nhỏ rất cẩn thận.<br>
+                </p> 
+                <center>
+                    <button id="hide">Ẩn Bớt</button>
+                </center>
+        </div>
+    </div>
+</body>
+</html>

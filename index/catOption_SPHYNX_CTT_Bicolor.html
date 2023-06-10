@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetWeb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/58d51fe4b9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/Icon.png" type="PetWebIcon">
+    <link rel="stylesheet" href="PetWeb.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<script>
+    $(document).ready(function(){
+        $("#show").click(function(){
+            $("#show").hide();
+            $("#hide").show();
+            $(".catInfo").show();
+        });
+        });
+    $(document).ready(function(){
+        $("#hide").click(function(){
+            $("#show").show();
+            $("#hide").hide();
+            $(".catInfo").hide();
+        });
+    });
+</script>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="icon">
+                <a href="PetWeb.html">
+                    <img src="img/Icon.png" alt="PetWebIcon">     
+                </a>     
+            </div>
+            <div class="homePage">
+                <a href="PetWeb.html">PetWeb</a>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li>
+                        <a href="PetWeb.html" class="navMenu">Trang Chủ</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="navMenu">Thú Cưng</a>  
+                        <i class="fa-solid fa-caret-down" style="color: #000000;"></i>
+                        <div class="dropdown-content">
+                            <a href="dogOption.html" class="border">Chó</a>
+                            <a href="catOption.html" class="border">Mèo</a>
+                            <a href="#">Coming Soon...</a>
+                        </div> 
+                    </li>
+                     
+                 
+                </ul>
+            </nav>
+        </div>      
+    </div>  
+    <div class="body">
+        <div class="contactIcon">
+            <a href="https://www.facebook.com/taipham1025" class="facebook">
+                <img src="img/facebook_color.png" alt="facebook">
+            </a>
+            <a href="https://www.pinterest.com/taipham1025/" class="pinterest">
+                <img src="img/pinterest_color.png" alt="pinterest">
+            </a>
+            <a href="#" class="twitter">
+                <img src="img/twitter.png" alt="twitter">
+            </a>
+            <a href="https://github.com/taipham1025" class="github">
+                <img src="img/github.png" alt="github">
+            </a>
+            <a href="https://discord.gg/X3eu7GgsTW" class="discord">
+                <img src="img/discord.png" alt="discord">
+            </a>
+        </div>
+        <div class="showCatImage">
+            <form> 
+                <p class="catName">Mèo Sphynx Bicolor Chưa Trưởng Thành</p>      
+            </form> 
+            <img class="aldTTlilac" src="image2/Meo/meo_sphynx/bicolor_ctt_001.jpg" alt="Mèo Sphynx Bicolor Chưa Trưởng Thành">
+            <center>
+                <button id="show">Tìm Hiểu Thêm</button>
+            </center>
+            <p class="catInfo">- Mèo Sphynx là giống mèo bị đột biến gen tự nhiên không qua cấy ghép. Chú mèo Sphynx đầu tiên 
+                xuất hiện vào năm 1966 ở Toronto, Canada. Chú là kết quả của cuộc giao phối của 2 con mèo khác. <br>
+                - Vì ngoại hình của chúng khá giống với các bức tượng nhân sư ở Ai Cập, nên người ta mới gọi chúng với cái 
+                tên là Mèo Ai Cập không lông hay mèo nhân sư. <br>
+                - Mèo Ai Cập (mèo Sphynx) có các màu lông khá đa dạng như màu đen, xanh, đỏ, kem, bạc, vàng, cameo, nâu, 
+                xanh-kem, nâu…và còn có nhiều màu khác nhau vô cùng độc đáo và hiếm có. Do vậy giá thành giống mèo này 
+                rất đắt, màu lông càng hiếm thì giá thành càng cao. <br>
+                - Cơ thể mèo Ai Cập nhẵn nhụi không lông màu da tái nhợt, toàn thân được bao phủ bởi những nếp da nhăn 
+                nheo. Thực ra chúng vẫn có một lớp lông tơ mỏng bao trùm toàn cơ thể giúp cơ thể chúng nhạy bén hơn so 
+                với các giống mèo khác. Những chú mèo Sphynx có hai chiếc tai lớn, tuy màu da không đa dạng nhưng con nào 
+                có màu da càng đỏ hoặc vằn đen sẽ có giá trị rất lớn. <br>
+                - Mèo nhân sư có kích thước vừa phải, khá cơ bắp. Mắt chúng lúc nào cũng ngơ ngác tỏ ra vẻ nghiêm nghị 
+                trong khá khó gần. Càng trưởng thành da của chúng càng nhăn nheo hơn trông chúng có vẻ già nua và hung 
+                dữ hơn nữa. <br>
+                - Trái ngược với vẻ ngoài hung dữ, có chút đáng sợ là tích cách vô cùng đáng yêu và dễ thương. Chúng rất 
+                thân thiện và hoạt bát. Một khi đã quen với chủ nhân thì chúng sẽ có thói quen cọ đầu vào chân, nằm vào 
+                lòng bạn, thích thú khi được ngủ cùng bạn. <br>
+                </p> 
+                <center>
+                    <button id="hide">Ẩn Bớt</button>
+                </center>
+        </div>
+    </div>
+</body>
+</html>

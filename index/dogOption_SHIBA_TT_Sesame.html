@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetWeb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/58d51fe4b9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/Icon.png" type="PetWebIcon">
+    <link rel="stylesheet" href="PetWeb.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<script>
+    $(document).ready(function(){
+        $("#show").click(function(){
+            $("#show").hide();
+            $("#hide").show();
+            $(".catInfo").show();
+        });
+        });
+    $(document).ready(function(){
+        $("#hide").click(function(){
+            $("#show").show();
+            $("#hide").hide();
+            $(".catInfo").hide();
+        });
+    });
+</script>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="icon">
+                <a href="PetWeb.html">
+                    <img src="img/Icon.png" alt="PetWebIcon">     
+                </a>     
+            </div>
+            <div class="homePage">
+                <a href="PetWeb.html">PetWeb</a>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li>
+                        <a href="PetWeb.html" class="navMenu">Trang Chủ</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="navMenu">Thú Cưng</a>  
+                        <i class="fa-solid fa-caret-down" style="color: #000000;"></i>
+                        <div class="dropdown-content">
+                            <a href="dogOption.html" class="border">Chó</a>
+                            <a href="catOption.html" class="border">Mèo</a>
+                            <a href="#">Coming Soon...</a>
+                        </div> 
+                    </li>
+                   
+
+                </ul>
+            </nav>
+        </div>      
+    </div>  
+    <div class="body">
+        <div class="contactIcon">
+            <a href="https://www.facebook.com/taipham1025" class="facebook">
+                <img src="img/facebook_color.png" alt="facebook">
+            </a>
+            <a href="https://www.pinterest.com/taipham1025/" class="pinterest">
+                <img src="img/pinterest_color.png" alt="pinterest">
+            </a>
+            <a href="#" class="twitter">
+                <img src="img/twitter.png" alt="twitter">
+            </a>
+            <a href="https://github.com/taipham1025" class="github">
+                <img src="img/github.png" alt="github">
+            </a>
+            <a href="https://discord.gg/X3eu7GgsTW" class="discord">
+                <img src="img/discord.png" alt="discord">
+            </a>
+        </div>
+        <div class="showCatImage">
+            <form>
+                <p class="catName">Chó Shiba Sesame Trưởng Thành</p>      
+            </form> 
+            <img class="aldTTlilac" src="image2/Cho/cho_shiba/sesame_tt_001.jpg" alt="Chó Shiba Sesame Trưởng Thành">
+            <center>
+                <button id="show">Tìm Hiểu Thêm</button>
+            </center>
+            <p class="catInfo">- Chó Shiba Inu là loại chó nhỏ nhất trong sáu giống chó nguyên thủy và riêng biệt của Nhật Bản. <br>
+                - Shiba sống chủ yếu ở miền núi. Chúng là giống chó cổ đại còn tồn tại đến ngày này. Shiba Inu có hình dáng 
+                giống với Akita Inu nhưng lại có kích thước nhỏ hơn. <br>
+                - Ngoài ra, Shiba Inu còn được biết đến với tên “chó Shiba cười”. Khóe miệng cười của Shiba toát lên vẻ 
+                đáng yêu khó cưỡng. <br>
+                - Các màu lông chó Shiba phổ biến: Màu lông của Shiba rất phong phú và đa dạng. Chúng sở hữu những màu 
+                sắc phổ biến như đỏ, đen, nâu hoặc màu vừng. Lớp lông phía trong cũng nhiều màu sắc như màu kem, màu da 
+                bò, màu xám, màu trắng. <br>
+                - Đặc điểm ngoại hình chó Shiba: <br>
+                •	Shiba sở hữu thân hình nhỏ bé nhưng vô cùng nhanh nhẹn. Chúng sống ở miền núi và là giống chó cổ 
+                xưa nên mang những nét ngoại hình dễ nhận biết. <br>
+                •	Tuy Shiba có cơ thể nhỏ bé nhưng cơ bắp lại rất săn chắc. Chúng có khung xương không lớn và độ dẻo dai cao. <br>
+                - Những bé Shiba sở hữu hai lớp lông: <br>
+                •	Lớp bên ngoài dày, cứng, thẳng và óng mượt. <br>
+                •	Lớp bên trong mềm và ngắn. Lớp lông mao ở trên mặt hay tai và chân rất giống với lông mao của cáo. <br>
+                - Lớp lông xù bảo vệ bên ngoài có chiều dài từ 4 - 5cm ở vai. Lông đuôi của chúng có thể xù lên như một 
+                cục bông nhỏ dễ thương. <br>
+                - Đặc điểm tính cách: <br>
+                •	Shiba mang tính cách độc lập cao và đôi khi còn hung hăng đối với những loài động vật khác. Bạn không 
+                nên nuôi Shiba với nhiều cún trong một gia đình hoặc sống chung với trẻ nhỏ vì nét hung hăng có thể khiến 
+                chúng trở nên không mấy thân thiện. <br>
+                •	Shiba Inu có vẻ hơi thô lỗ nhưng chúng rất trung thành và yêu thương chủ hết mực. Những bé cún đến từ 
+                Nhật luôn dành sự tôn trọng nhất với chủ nhân của mình. Chúng luôn ngoan ngoãn và nghe lời chủ nhân. <br>
+                •	Các giống Shiba rất kỹ tính. Chúng luôn muốn giữ mình sạch sẽ mọi lúc và thói quen liếm lòng chân giống 
+                như mèo. Chúng có cách di chuyển riêng nhằm hạn chế làm bẩn bộ lông xinh xắn của mình.<br>
+                </p> 
+                <center>
+                    <button id="hide">Ẩn Bớt</button>
+                </center>
+        </div>
+    </div>
+</body>
+</html>

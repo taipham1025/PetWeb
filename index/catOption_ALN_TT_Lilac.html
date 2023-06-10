@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetWeb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/58d51fe4b9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/Icon.png" type="PetWebIcon">
+    <link rel="stylesheet" href="PetWeb.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<script>
+    $(document).ready(function(){
+        $("#show").click(function(){
+            $("#show").hide();
+            $("#hide").show();
+            $(".catInfo").show();
+        });
+        });
+    $(document).ready(function(){
+        $("#hide").click(function(){
+            $("#show").show();
+            $("#hide").hide();
+            $(".catInfo").hide();
+        });
+    });
+</script>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="icon">
+                <a href="PetWeb.html">
+                    <img src="img/Icon.png" alt="PetWebIcon">     
+                </a>     
+            </div>
+            <div class="homePage">
+                <a href="PetWeb.html">PetWeb</a>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li>
+                        <a href="PetWeb.html" class="navMenu">Trang Chủ</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="navMenu">Thú Cưng</a>  
+                        <i class="fa-solid fa-caret-down" style="color: #000000;"></i>
+                        <div class="dropdown-content">
+                            <a href="dogOption.html" class="border">Chó</a>
+                            <a href="catOption.html" class="border">Mèo</a>
+                            <a href="#">Coming Soon...</a>
+                        </div> 
+                    </li>
+                   
+                    
+                </ul>
+            </nav>
+        </div>      
+    </div>  
+    <div class="body">
+        <div class="contactIcon">
+            <a href="https://www.facebook.com/taipham1025" class="facebook">
+                <img src="img/facebook_color.png" alt="facebook">
+            </a>
+            <a href="https://www.pinterest.com/taipham1025/" class="pinterest">
+                <img src="img/pinterest_color.png" alt="pinterest">
+            </a>
+            <a href="#" class="twitter">
+                <img src="img/twitter.png" alt="twitter">
+            </a>
+            <a href="https://github.com/taipham1025" class="github">
+                <img src="img/github.png" alt="github">
+            </a>
+            <a href="https://discord.gg/X3eu7GgsTW" class="discord">
+                <img src="img/discord.png" alt="discord">
+            </a>
+        </div>
+        <div class="showCatImage">
+            <form>
+                <p class="catName">Mèo Anh Lông Ngắn Lilac Trưởng Thành</p>      
+            </form> 
+            <img class="aldTTlilac" src="image2/Meo/meo_anh/meo_anh_long_ngan/lilac_tt_002.jpg" alt="Mèo Anh Lông Ngắn lilac Trưởng Thành">
+            <center>
+                <button id="show">Tìm Hiểu Thêm</button>
+            </center>
+            <p class="catInfo">- Mèo Anh lông ngắn (British Shorthair) thuộc một trong các giống mèo cổ nhất trên thế giới với 
+                nguồn gốc từ Ai Cập trong thời kì La Mã cổ đại. Chúng được người Anh rất yêu thích chính bởi khoảng 
+                thời gian La Mã xâm chiếm hòn đảo Anh từ những thời xa xưa, dẫn tới giờ đây, giống mèo này gần như 
+                gắn liền với Vương Quốc Anh xinh đẹp.<br>
+                - Mèo Anh lông ngắn có bộ lông dày, ngắn và rất ấm áp khi ôm. Cơ thể mèo tròn, khỏe khắn và cân đối. 
+                Chân mèo khá ngắn, phần thịt đệm ở chân dày nên khi chúng di chuyển rất nhẹ nhàng.<br>
+                - Đầu mèo khá lớn và tròn, má rộng, miệng chúm chím, tai hình tam giác nhọn và đôi mắt to tròn. <br>
+                - Mèo Anh lông ngắn là giống mèo khá thụ động, lười biếng và ít khi di chuyển mạnh. Những chú mèo này rất thân thiện, 
+                tuy vậy chúng thích được gần gũi với người chứ không thích bế trên tay. <br>
+                - Nếu ở nhà 1 mình, mèo sẽ khá lặng lẽ để đợi chủ về. Chúng cũng chỉ cần 1 trái bóng là có thể chơi cả ngày. <br>
+                - Các kiểu màu & hoa văn cơ bản của mèo Anh lông ngắn: <br>
+                •	Màu đơn sắc (xám xanh, lilac, socola, cinnamon, trắng, đen…) <br>
+                •	Tabby (mướp, vện) <br>
+                •	Màu sắc với trắng: hai màu (bicolor), ba màu (tricolor), mitted, harlequin, van <br>
+                •	Golden (vàng) <br>
+                •	Silver (bạc) <br>
+                •	Tortie (đồi mồi) <br>
+                •	Color Point (điểm màu) <br>
+                •	Tipped color (màu chóp lông) <br>
+                </p> 
+                <center>
+                    <button id="hide">Ẩn Bớt</button>
+                </center>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetWeb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/58d51fe4b9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/Icon.png" type="PetWebIcon">
+    <link rel="stylesheet" href="PetWeb.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<script>
+    $(document).ready(function(){
+        $("#show").click(function(){
+            $("#show").hide();
+            $("#hide").show();
+            $(".catInfo").show();
+        });
+        });
+    $(document).ready(function(){
+        $("#hide").click(function(){
+            $("#show").show();
+            $("#hide").hide();
+            $(".catInfo").hide();
+        });
+    });
+</script>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="icon">
+                <a href="PetWeb.html">
+                    <img src="img/Icon.png" alt="PetWebIcon">     
+                </a>     
+            </div>
+            <div class="homePage">
+                <a href="PetWeb.html">PetWeb</a>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li>
+                        <a href="PetWeb.html" class="navMenu">Trang Chủ</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="navMenu">Thú Cưng</a>  
+                        <i class="fa-solid fa-caret-down" style="color: #000000;"></i>
+                        <div class="dropdown-content">
+                            <a href="dogOption.html" class="border">Chó</a>
+                            <a href="catOption.html" class="border">Mèo</a>
+                            <a href="#">Coming Soon...</a>
+                        </div> 
+                    </li>
+                    
+                 
+                </ul>
+            </nav>
+        </div>      
+    </div>  
+    <div class="body">
+        <div class="contactIcon">
+            <a href="https://www.facebook.com/taipham1025" class="facebook">
+                <img src="img/facebook_color.png" alt="facebook">
+            </a>
+            <a href="https://www.pinterest.com/taipham1025/" class="pinterest">
+                <img src="img/pinterest_color.png" alt="pinterest">
+            </a>
+            <a href="#" class="twitter">
+                <img src="img/twitter.png" alt="twitter">
+            </a>
+            <a href="https://github.com/taipham1025" class="github">
+                <img src="img/github.png" alt="github">
+            </a>
+            <a href="https://discord.gg/X3eu7GgsTW" class="discord">
+                <img src="img/discord.png" alt="discord">
+            </a>
+        </div>
+        <div class="showCatImage">
+            <form>
+                <p class="catName">Chó Dachshund Two Color Trưởng Thành</p>      
+            </form> 
+            <img class="aldTTlilac" src="image2/Cho/cho_dachshund/twocolor_tt_001.jpg" alt="Chó Dachshund Two Color Trưởng Thành">
+            <center>
+                <button id="show">Tìm Hiểu Thêm</button>
+            </center>
+            <p class="catInfo">- Nguồn gốc chó lạp xưởng: Giống chó Dachshund hay còn được gọi là chó lạp xưởng, xuất hiện 
+                lần đầu tiên tại Đức vào khoảng thế kỷ 15, là kết quả lai tạo của hai giống chó săn bắt chuột Pinschers 
+                và giống chó Toy Terriers. Chó lạp xưởng phát triển và nhân giống nhiều hơn vào thế kỷ 17, người dân 
+                thường nuôi để sử dụng như một chó săn dùng để chống lại những con cáo rừng. <br>
+                - Giống chó lạp xưởng dường như đã gần như tuyệt chủng sau khi phải trải qua 2 cuộc chiến tranh thế 
+                giới. Sau nhiều nỗ lực nhân giống thì giống chó này đã có dấu hiệu phục hồi và trở thành một trong những 
+                giống chó được yêu thích nhất. <br>
+                - Vào những năm cuối thế kỉ 19, giống chó lạp xưởng được mọi người xem như là chó săn và được người bản 
+                địa mang đến Mỹ và trở thành giống chó nuôi trong nhà. <br>
+                - Tuy là giống chó nuôi thân thiết trong gia đình nhưng bạn phải luôn đề phòng vì bản tính dũng mãnh và 
+                hung dữ của loài chó săn vẫn còn. <br>
+                - Phân loại chó lạp xưởng, Chó lạp xưởng được phân thành 3 loại dựa theo bộ lông của chúng: <br>
+                •	Chó lạp xưởng lông mượt: là những chú chó đã được thuần chủng. <br>
+                •	Chó lạp xưởng lông ngắn: là kết quả của cuộc lai tạo giữa giống chó thuần chủng với dòng chó Spaniel Đức. <br>
+                •	Chó lạp xưởng lông dài: là loài chó lạp xưởng đồ chơi, bởi vì chúng có thân hình nhỏ mà còn mang. 
+                trên mình bộ lông rất dài. <br>
+                - Đặc điểm ngoại hình của chó lạp xưởng: Giống chó lạp xưởng thường có mũi và tai dài rủ xuống mặt 
+                có khi rủ xuống tới miệng, mắt lồi và miệng dài bên trong miệng chứa những chiếc răng sắc khỏe. Tứ 
+                chi ngắn nhưng lại rất nhanh nhẹn nhờ ngực nở, bụng hóp nhỏ, thân thể rắn chắc. Do vẫn còn bản tính 
+                chó săn nên mũi của chó lạp xưởng rất thính, có khả năng đánh hơi tốt hơn so với các loại chó khác. Cân 
+                nặng trung bình của một chú chó lạp xưởng khi trưởng thành có thể nặng tới khoảng 7.2 đến 14kg và có 
+                chiêu cao dao động từ 13 -27cm. <br>
+                - Chó lạp xưởng rất ít lông nhưng lông của chúng rất mềm mịn và rất đẹp.Có ba loại lông phổ biến là 
+                lông dài, lông ngắn và lông mượt. <br>
+                - Loại lông vàng hoặc nâu đỏ thường xuất hiện ở loài chó đơn sắc, những chú chó có 2 màu thì thường 
+                là màu màu đen sẫm, nâu hoặc xám điểm lẫn màu hạt dẻ sáng. <br>
+                - Đặc điểm tính cách của chó lạp xưởng: Chó lạp xưởng được liệt kê vào danh sách các loại động vật 
+                khó thuần hóa, phản xạ của chúng có phần hung dữ khi cảm thấy nguy hiểm. Nhưng chúng cũng có rất nhiều 
+                đặc điểm tốt như là sống trung thành, tình cảm, khả năng bảo vệ tốt vì rất dũng cảm và tiếng sủa của 
+                chúng rất to. Chó lạp xưởng rất thông minh, có trí nhớ lâu và có khả năng học hỏi rất nhanh.<br>
+                </p> 
+                <center>
+                    <button id="hide">Ẩn Bớt</button>
+                </center>
+        </div>
+    </div>
+</body>
+</html>

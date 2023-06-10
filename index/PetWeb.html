@@ -13,24 +13,28 @@
     <link rel="stylesheet" href="PetWeb.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script>
-        $(document).ready(function(){
-            $(".mainButton").click(function(){
-                $(".catButton").hide();
-                $(".dogButton").hide();
-            });
-            });
-        $(document).ready(function(){
-            $(".catButton").click(function(){
-                $(".select").show();   
-            })
-        })
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-analytics.js";
+            const firebaseConfig = {
+                apiKey: "AIzaSyBmuMyKLjvQaSo0D2jkoto5wvBzrdQMwzY",
+                authDomain: "petweb-7ec40.firebaseapp.com",
+                projectId: "petweb-7ec40",
+                storageBucket: "petweb-7ec40.appspot.com",
+                messagingSenderId: "820430545350",
+                appId: "1:820430545350:web:c4c5ccad16555bf20c92c7",
+                measurementId: "G-HKD6Q4B28E"
+            };
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
     </script>
 </head>
 <body>
     <div class="header">
         <div class="navbar">
             <div class="icon">
+                <a href="PetWeb.html">
                 <img src="img/Icon.png" alt="PetWebIcon">     
+                </a>
             </div>
             <div class="homePage">
                 <a href="PetWeb.html">PetWeb</a>
@@ -45,17 +49,12 @@
                         <a href="#" class="navMenu">Thú Cưng</a>  
                         <i class="fa-solid fa-caret-down" style="color: #000000;"></i>
                         <div class="dropdown-content">
-                            <a href="#" class="border">Chó</a>
-                            <a href="#" class="border">Mèo</a>
+                            <a href="dogOption.html" class="border">Chó</a>
+                            <a href="catOption.html" class="border">Mèo</a>
                             <a href="#">Coming Soon...</a>
                         </div> 
                     </li>
-                    <li>                     
-                        <a href="#" class="navMenu">Xếp Hạng</a>
-                    </li> 
-                    <li>
-                        <button class="navMenu" class="loginBtn" onclick="loginBox()">Đăng Nhập</button> 
-                    </li>
+           
                 </ul>
             </nav>
         </div>       
@@ -80,54 +79,19 @@
         </div>
         <div class="mainButton">
             <form class="catButton">
-                <img src="img/cat.png" alt="cat">
-                <p>Cat</p>
+                <a href="catOption.html">
+                    <img src="img/cat.png" alt="cat">
+                    <p>Cat</p>
+                </a>
             </form>
             <form class="dogButton">
-                <img src="img/dog.png" alt="dog">
-                <p>Dog</p>
+                <a href="dogOption.html">
+                    <img src="img/dog.png" alt="dog">
+                    <p>Dog</p>
+                </a>
             </form>
         </div>
     </div> 
-    <div class="login-box">
-        <form>
-          <div class="user-box">
-            <input type="text" name="" required="">
-            <label>Username</label>
-          </div>
-          <div class="user-box">
-            <input type="password" name="" required="">
-            <label>Password</label>
-          </div><center>
-          <a href="#">
-                 LOGIN
-             <span></span>
-          </a></center>
-        </form>
-    </div>
-    <div class="select">
-        <form class="question">
-            <p>Chọn Giống Mèo Bạn Muốn</p>
-        </form>
-        <div class="option">
-            <form class="question" id="o0">
-                <p>Mèo Anh</p>
-            </form><form class="question" id="o1">
-                <p>Mèo Munchkin</p>
-            </form><form class="question" id="o2">
-                <p>Mèo Mướp</p>
-            </form><form class="question" id="o3">
-                <p>Mèo Ragdoll</p>
-            </form><form class="question" id="o4">
-                <p>Mèo Sphynx</p>
-            </form><form class="question" id="o5">
-                <p>Mèo Xiêm</p>
-            </form>
-        </div>
-        <form class="title">
-            <img src="img/cat.png" alt="cat">
-        </form>  
-    </div>
     <div class="footer">
     </div>
 </body>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetWeb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/58d51fe4b9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/Icon.png" type="PetWebIcon">
+    <link rel="stylesheet" href="PetWeb.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<script>
+    $(document).ready(function(){
+        $("#show").click(function(){
+            $("#show").hide();
+            $("#hide").show();
+            $(".catInfo").show();
+        });
+        });
+    $(document).ready(function(){
+        $("#hide").click(function(){
+            $("#show").show();
+            $("#hide").hide();
+            $(".catInfo").hide();
+        });
+    });
+</script>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="icon">
+                <a href="PetWeb.html">
+                    <img src="img/Icon.png" alt="PetWebIcon">     
+                </a>     
+            </div>
+            <div class="homePage">
+                <a href="PetWeb.html">PetWeb</a>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li>
+                        <a href="PetWeb.html" class="navMenu">Trang Chủ</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="navMenu">Thú Cưng</a>  
+                        <i class="fa-solid fa-caret-down" style="color: #000000;"></i>
+                        <div class="dropdown-content">
+                            <a href="dogOption.html" class="border">Chó</a>
+                            <a href="catOption.html" class="border">Mèo</a>
+                            <a href="#">Coming Soon...</a>
+                        </div> 
+                    </li>
+                  
+                   
+                </ul>
+            </nav>
+        </div>      
+    </div>  
+    <div class="body">
+        <div class="contactIcon">
+            <a href="https://www.facebook.com/taipham1025" class="facebook">
+                <img src="img/facebook_color.png" alt="facebook">
+            </a>
+            <a href="https://www.pinterest.com/taipham1025/" class="pinterest">
+                <img src="img/pinterest_color.png" alt="pinterest">
+            </a>
+            <a href="#" class="twitter">
+                <img src="img/twitter.png" alt="twitter">
+            </a>
+            <a href="https://github.com/taipham1025" class="github">
+                <img src="img/github.png" alt="github">
+            </a>
+            <a href="https://discord.gg/X3eu7GgsTW" class="discord">
+                <img src="img/discord.png" alt="discord">
+            </a>
+        </div>
+        <div class="showCatImage">
+            <form>
+                <p class="catName">Mèo Ragdoll Point Trưởng Thành</p>      
+            </form> 
+            <img class="aldTTlilac" src="image2/Meo/meo_ragdoll/point_tt_001.jpg" alt="Mèo Ragdoll Point Trưởng Thành">
+            <center>
+                <button id="show">Tìm Hiểu Thêm</button>
+            </center>
+            <p class="catInfo">-Ragdoll là tên của một giống mèo có đôi mắt màu xanh dương tuyệt đẹp, bộ lông 2 màu tương phản nhau. 
+                Ragdoll là giống mèo to lớn nhưng tính cách hiền lành, đáng yêu. Cái tên Ragdoll xuất phát từ thói quen rũ người và 
+                thả lỏng cơ thể khi được bế lên. <br>
+                - Vào thập niên 60 của thế kỷ 20, bà Ann Baker, một chuyên gia gây giống mèo Ba Tư ở California, đã chọn lọc những 
+                con mèo con từ mèo mẹ có tên là Josephine (mèo hoang, lông trắng, dài, giống Ba Tư lai với Turkish Angora) và những 
+                con mèo cha thuộc giống Birman, Burmese và 1 chú có bộ lông như mèo Xiêm. <br>
+                - Trong những lứa đầu ra đời, có Blackie (đực, đen tuyền, trông giống mèo Burmese) và Daddy Warbucks (lông đốm đen 
+                như mèo Xiêm, chân trắng ). Daddy Warbucks được lai với mèo nhị thể tên Fugianna, Blackie lai với BuckWheat (lông đen, 
+                giống Burmese). Fugianna và BuckWheat đều là con của Josephine. <br>
+                - Sau này, những chú mèo giống Ragdoll đều là hậu duệ của Daddy Warbucks, Fugianna và BuckWheat và mèo Ragdoll có nguồn 
+                gốc từ Mỹ. <br>
+                - Mèo Ragdoll có hình thể to lớn hơn những chú mèo bình thường khác. Chúng có bộ lông dài, đôi mắt xanh xinh đẹp đặc 
+                trưng. Đầu tròn được bao phủ bởi bộ lông xù, mõm hơi dài và nhọn, đôi tai mỏng dựng đứng. Ragdoll thường có những màu 
+                chủ yếu như màu socola, màu hoa cà, màu kem, màu xanh lam,... <br>
+                - Những hoa văn đặc trưng của mèo Ragdoll: <br>
+                +Bicolor: Mèo sẽ có 2 màu, màu sẫm hơn ở trên tai và đỉnh đầu. Khuôn mặt trắng tinh, và trông giống hình tam giác 
+                lộn ngược, chiếc mũi hồng hào và toàn thân trắng muốt. <br>
+                +Point: Tai, mặt, đuôi và bàn chân có màu tối hơn màu lông nền. <br>
+                +Mitted: sẽ có những điểm tối giống Point. Tuy nhiên, bàn chân của chúng có màu lông trắng sáng, từ bàn chân đến c
+                ổ chân, không đến đùi.<br>
+                </p> 
+                <center>
+                    <button id="hide">Ẩn Bớt</button>
+                </center>
+        </div>
+    </div>
+</body>
+</html>

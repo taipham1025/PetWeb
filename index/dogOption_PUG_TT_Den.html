@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetWeb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/58d51fe4b9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/Icon.png" type="PetWebIcon">
+    <link rel="stylesheet" href="PetWeb.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<script>
+    $(document).ready(function(){
+        $("#show").click(function(){
+            $("#show").hide();
+            $("#hide").show();
+            $(".catInfo").show();
+        });
+        });
+    $(document).ready(function(){
+        $("#hide").click(function(){
+            $("#show").show();
+            $("#hide").hide();
+            $(".catInfo").hide();
+        });
+    });
+</script>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="icon">
+                <a href="PetWeb.html">
+                    <img src="img/Icon.png" alt="PetWebIcon">     
+                </a>     
+            </div>
+            <div class="homePage">
+                <a href="PetWeb.html">PetWeb</a>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li>
+                        <a href="PetWeb.html" class="navMenu">Trang Chủ</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="navMenu">Thú Cưng</a>  
+                        <i class="fa-solid fa-caret-down" style="color: #000000;"></i>
+                        <div class="dropdown-content">
+                            <a href="dogOption.html" class="border">Chó</a>
+                            <a href="catOption.html" class="border">Mèo</a>
+                            <a href="#">Coming Soon...</a>
+                        </div> 
+                    </li>
+                    
+
+                </ul>
+            </nav>
+        </div>      
+    </div>  
+    <div class="body">
+        <div class="contactIcon">
+            <a href="https://www.facebook.com/taipham1025" class="facebook">
+                <img src="img/facebook_color.png" alt="facebook">
+            </a>
+            <a href="https://www.pinterest.com/taipham1025/" class="pinterest">
+                <img src="img/pinterest_color.png" alt="pinterest">
+            </a>
+            <a href="#" class="twitter">
+                <img src="img/twitter.png" alt="twitter">
+            </a>
+            <a href="https://github.com/taipham1025" class="github">
+                <img src="img/github.png" alt="github">
+            </a>
+            <a href="https://discord.gg/X3eu7GgsTW" class="discord">
+                <img src="img/discord.png" alt="discord">
+            </a>
+        </div>
+        <div class="showCatImage">
+            <form>
+                <p class="catName">Chó Pug Đen Trưởng Thành</p>      
+            </form> 
+            <img class="aldTTlilac" src="image2/Cho/cho_pug/den_tt_001.jpg" alt="Chó Pug Đen Trưởng Thành">
+            <center>
+                <button id="show">Tìm Hiểu Thêm</button>
+            </center>
+            <p class="catInfo">- Nguồn gốc chó Pug: Chó Pug hay còn gọi là chó mặt xệ, có nguồn gốc từ Trung Quốc. 
+                Vào thế kỷ 16, chúng được đưa đến vào Châu Âu; sang đến thế kỷ 19. Những chú chó này đã trở thành thú 
+                cưng của Nữ Hoàng Victoria. <br>
+                - Từ đó, giống chó này ngày càng nổi tiếng. Ngoài ra, vào năm 2004, đã có một chú chó Pug giành được 
+                giải Nhất trong sự kiện World Dog Show. <br>
+                - Các màu lông chó Pug phổ biến: Theo tiêu chuẩn của American Kennel Club thì chó Pug được công nhận với 2 màu lông phổ biến là màu 
+                nâu vàng và đen. <br>
+                - Tuy nhiên theo tiêu chuẩn của FCI thì chó Pug có thể có tới 4 màu mà bạn thường thấy như: Nâu vàng, 
+                đen, mơ, màu bạc. <br>
+                - Đặc điểm ngoại hình chó Pug: Giống chó này có khá nhiều nếp nhăn trên khuôn mặt, mắt tròn và lồi, 
+                đuôi xoăn, mõm ngắn cùng bộ lông mềm mịn với nhiều màu khác nhau. <br>
+                - Cơ thể chúng khá ngắn, cao từ 26-42 cm, trông khá giống một cục thịt tròn; cân nặng dao động từ 6-8kg. <br>
+                - Đặc điểm tính cách: Pug là giống chó rất thông minh và nhanh nhẹn, thậm chí có thể cảm nhận được 
+                thái độ của bạn thông qua giọng nói. Về cơ bản thì chúng rất hiền lành và hòa đồng nhưng thường ăn, ngủ, 
+                chơi nhiều nên sẽ dẫn đến thừa cân, bạn nên thường xuyên dắt chúng đi dạo và tập luyện nhé! <br>
+                - Một số ưu điểm trong tính cách của chó Pug phải kể đến như vui vẻ với trẻ nhỏ, hiếu khách, trung 
+                thành và sống tình cảm nên rất cần sự quan tâm từ chủ nhân. Chó Pug cũng hay ghen tỵ, giận dỗi nếu 
+                bạn để ý những vật nuôi khác nhiều hơn chúng.<br>
+                </p> 
+                <center>
+                    <button id="hide">Ẩn Bớt</button>
+                </center>
+        </div>
+    </div>
+</body>
+</html>

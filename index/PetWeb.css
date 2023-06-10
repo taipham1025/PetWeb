@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 .header {
     height: 70px;
@@ -69,7 +74,7 @@ nav{
             position: absolute;
             background-color: #ffffff;
             min-width: 160px;
-            right: 575px;
+            right: 325px;
             border: 2px solid #666666;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
@@ -143,7 +148,7 @@ nav ul li a {
     .body .contactIcon img:hover {
         filter: grayscale(0);
     }
-
+/*main button-----------------------------------------------------------------*/
 .mainButton .catButton {     
     background-color: white;
     width: 450px;
@@ -192,80 +197,9 @@ nav ul li a {
     left: 160px;
     }
 
-/*login css----------------------------------------------------------------------*/
-.login-box {
-    display: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 400px;
-    padding: 40px;
-    transform: translate(-50%, -50%);
-    background: rgba(255, 255, 255, 0.987);
-    box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0,0,0,.6);
-    border-radius: 10px;
-  }
-  .login-box .user-box {
-    position: relative;
-  }
-  
-  .login-box .user-box input {
-    width: 100%;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #000000;
-    margin-bottom: 30px;
-    border: none;
-    border-bottom: 1px solid #000000;
-    outline: none;
-    background: transparent;
-  }
-  
-  .login-box .user-box label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #000000;
-    pointer-events: none;
-    transition: .5s;
-  }
-  
-  .login-box .user-box input:focus ~ label,
-  .login-box .user-box input:valid ~ label {
-    top: -20px;
-    left: 0;
-    color: #000000;
-    font-size: 12px;
-  }
-  
-  .login-box form a {
-    position: relative;
-    display: inline-block;
-    padding: 10px 20px;
-    color: #000000;
-    font-size: 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    overflow: hidden;
-    transition: .5s;
-    margin-top: 40px;
-    letter-spacing: 4px
-  }
-  
-  .login-box a:hover {
-    background: #FC9D9A;
-    color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 25px #FC9D9A;
-  }
-.select{
-    display: none;
-}
-.title {
 
+/*---------------------------------------------------------------------------option*/
+.title {
     background-color: white;
     width: 150px;
     height: 150px;
@@ -310,10 +244,11 @@ nav ul li a {
     height: 50px;
     left: 700px;
 }
-.option p{
+.option a{
+    font-family: Lobster;
     font-size: 25px;
-    text-align: center;
-    padding-left: 30px;
+    position: absolute;
+    left: 160px;
     top: 10px;
 }
     #o0  {
@@ -334,8 +269,109 @@ nav ul li a {
     #o5  {
         top: 680px;
     }
+/*Show---------------------------------------------------------------*/
+.showCatImage form{
+    background-color: white;
+    width: 700px;
+    height: 80px;
+    border-radius: 100px;
+    border-color: #ff5a54;
+    border-style: solid;
+    border-width: 5px;
+    box-shadow: 5px 5px 15px -1px #ff5a54;
+    margin-top: 40px;
+    margin-left: 600px;
+}
+.showCatImage .catName {
+    font-family: lobster;
+    font-size: 32px;
+    color: #ff5a54;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+.showCatImage .aldTTbicolor{                                                    /*Bicolor ALD TT*/
+    border-radius: 5%;
+    border-color: #ff5a54 ;
+    border-style: solid;
+    border-width: 7px;
+    box-shadow: 5px 5px 15px -1px #ff5a54;
+    width: 1000px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 450px;
+}
+.showCatImage .aldTTlilac{                                                      /*Lilac ALD TT*/
+    border-radius: 5%;
+    border-color: #ff5a54 ;
+    border-style: solid;
+    border-width: 7px;
+    box-shadow: 5px 5px 15px -1px #ff5a54;
+    width: 900px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 500px;
+}
 
 
+.showCatImage #show{
+    padding: 10px 20px;
+    color: #ff5a54;
+    border-radius: 25px;
+    border-color: #ff5a54;
+    background-color: #fff;
+    font-family: Lobster;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+    .showCatImage #show:hover{
+        background: #ff5a54;
+        color: #fff;
+        box-shadow: 0 0 25px #ff5a54;   
+        box-shadow: 5px 5px 15px -1px #ff5a54; 
+    }
+    .showCatImage #hide{
+        display: none;
+        padding: 10px 20px;
+        color: #ff5a54;
+        border-radius: 25px;
+        border-color: #ff5a54;
+        background-color: #fff;
+        font-family: Lobster;
+        font-size: 25px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        left: 850px;
+    }    
+    .showCatImage #hide:hover{
+        background: #ff5a54;
+        color: #fff;
+        box-shadow: 0 0 25px #ff5a54;  
+        box-shadow: 5px 5px 15px -1px #ff5a54;  
+    }
+    .showCatImage .catInfo {
+        display: none;
+        color: #000000;
+        font-family: Lobster;
+        font-size: 30px;
+        padding-left: 320px;
+        padding-right: 340px;
+        padding-top: 70px;
+    }
+.likebtn{
+    background-color: #fff;
+    border: none;
+    margin-top: 50px;
+}
+    .likebtn img{
+        width: 50px;
+        height: auto;
+    }
+    .likep{
+        font-family: Lobster;
+        font-size: 30px;
+        color: #ff5a54;
+    }
 
   
 

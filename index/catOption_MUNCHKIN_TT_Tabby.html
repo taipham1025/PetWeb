@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetWeb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/58d51fe4b9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/Icon.png" type="PetWebIcon">
+    <link rel="stylesheet" href="PetWeb.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<script>
+    $(document).ready(function(){
+        $("#show").click(function(){
+            $("#show").hide();
+            $("#hide").show();
+            $(".catInfo").show();
+        });
+        });
+    $(document).ready(function(){
+        $("#hide").click(function(){
+            $("#show").show();
+            $("#hide").hide();
+            $(".catInfo").hide();
+        });
+    });
+</script>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="icon">
+                <a href="PetWeb.html">
+                    <img src="img/Icon.png" alt="PetWebIcon">     
+                </a>     
+            </div>
+            <div class="homePage">
+                <a href="PetWeb.html">PetWeb</a>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li>
+                        <a href="PetWeb.html" class="navMenu">Trang Chủ</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="navMenu">Thú Cưng</a>  
+                        <i class="fa-solid fa-caret-down" style="color: #000000;"></i>
+                        <div class="dropdown-content">
+                            <a href="dogOption.html" class="border">Chó</a>
+                            <a href="catOption.html" class="border">Mèo</a>
+                            <a href="#">Coming Soon...</a>
+                        </div> 
+                    </li>
+                    
+                   
+                </ul>
+            </nav>
+        </div>      
+    </div>  
+    <div class="body">
+        <div class="contactIcon">
+            <a href="https://www.facebook.com/taipham1025" class="facebook">
+                <img src="img/facebook_color.png" alt="facebook">
+            </a>
+            <a href="https://www.pinterest.com/taipham1025/" class="pinterest">
+                <img src="img/pinterest_color.png" alt="pinterest">
+            </a>
+            <a href="#" class="twitter">
+                <img src="img/twitter.png" alt="twitter">
+            </a>
+            <a href="https://github.com/taipham1025" class="github">
+                <img src="img/github.png" alt="github">
+            </a>
+            <a href="https://discord.gg/X3eu7GgsTW" class="discord">
+                <img src="img/discord.png" alt="discord">
+            </a>
+        </div>
+        <div class="showCatImage">
+            <form>
+                <p class="catName">Mèo Munchkin Tabby Trưởng Thành</p>      
+            </form> 
+            <img class="aldTTbicolor" src="image2/Meo/meo_munchkin/tabby_tt_001.jpg" alt="Mèo Munchkin Tabby Trưởng Thành">
+            <center>
+                <button id="show">Tìm Hiểu Thêm</button>
+            </center>
+            <p class="catInfo">- Mèo Munchkin có nguồn gốc từ Mỹ. Chúng được phát hiện lần đầu vào năm 1940. 
+                Thế nhưng, loài mèo này đã biến mất vào thế chiến thứ hai, mãi đến năm 1983, người ta mới thấy 
+                nhìn thấy chúng. Giống mèo Munchkin được nuôi và được chăm sóc đặt biệt tại bang Louisiana và 
+                được biết đến rộng rãi vào năm 1991. Do đó, Munchkin được biết đến như một giống mèo đặc trưng của Louisiana. <br>
+                - Giống mèo Munchkin có khá nhiều màu lông, phổ biến nhất vẫn là những màu lông như: trắng, đen, vàng, kem, xám, socola. <br>
+                - Màu lông của giống mèo Munchkin rất đa dạng. Lông đuôi sẽ dài hơn lông trên cơ thể của chúng. Những chú mèo 
+                Munchkin lông ngắn hoặc lông dài đều là những chú mèo Munchkin thuần chủng. <br>
+                - Những chú mèo Munchkin nổi tiếng với những chiếc chân ngắn cũn và thường đứng khúm khúm lại với nhau. 
+                Chiều dài thân của chúng dài khoảng 2,5 lần so với chiều cao, 2 chân sau cao hơn 2 chân trước một tí. 
+                Tuổi thọ của mèo Munchkin có thể lên đến 15 năm tuổi. <br>
+                - Không chỉ có một vẻ ngoài đáng yêu và ưa nhìn, những chú mèo Munchkin cũng có tính cách rất dễ chịu và 
+                thân thiện. Những chú mèo Munchkin rất tinh nghịch, lém lỉnh và vui tươi như vẻ ngoài của chúng. Tuy nhiên, 
+                chúng cũng rất ngọt ngào, đặc biệt là rất quấn chủ. <br>
+                - Ngoài ra, những chú mèo Munchkin cũng rất thông minh, hiền lành và dễ tính. Chúng rất hòa đồng và dễ gần 
+                với trẻ con. Những gia đình có trẻ nhỏ thì nên nuôi một chú mèo Munchkin trong nhà để trẻ nhỏ được bầu bạn 
+                với thú cưng. <br>
+                
+                </p> 
+                <center>
+                    <button id="hide">Ẩn Bớt</button>
+                </center>
+        </div>
+    </div>
+</body>
+</html>
